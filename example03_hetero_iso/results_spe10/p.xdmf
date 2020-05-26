@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries_p" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/1/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/1/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="864" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/2/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/2/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="1728" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/3/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/3/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="2592" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/3</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/4/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/4/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="3456" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/5/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/5/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="4320" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/6/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/6/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="5184" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/6</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/7/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/7/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="6048" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/7</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/8/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/8/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="6912" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/9/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/9/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="7776" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/9</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="14400" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="14400 3" NumberType="UInt" Format="HDF">p.h5:/Mesh/10/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="7381 2" Format="HDF">p.h5:/Mesh/10/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="8640" />
+        <Attribute Name="p" AttributeType="Scalar" Center="Cell">
+          <DataItem Dimensions="14400 1" Format="HDF">p.h5:/VisualisationVector/10</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
